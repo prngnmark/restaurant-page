@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    margin: 0;
+    background-image: url('./67f0d6af18ddc2634156.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#content {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    font-size: 52px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.tab {
+    background: none;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.tab:hover {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    transform: scale(1.5);
+}
+
+.tab:focus {
+    border-bottom: 2px solid white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-top: 25px;
+}
+
+.home {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    padding: 20px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 25px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.foodName {
+    text-decoration: underline;
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+}
+
+.location {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
